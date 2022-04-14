@@ -1,0 +1,9 @@
+h1{background-color:#114514 ; color: white; padding:30px; text-align:center}
+h3{text-align:center}
+img{align-content: center; margin-left: 550px;}
+#yourWords{padding:25px;background-color:#114514;color: white}
+#theAnswer{padding:25px;background-color:gold;color: black}
+#bt1{width: 300px;height: 100px;font-size: 20px;position: absolute;top: 350px;left: 200px;}
+#bt2{width: 300px;height: 100px;font-size: 20px;position: absolute;top: 500px;left: 200px;}
+#bt3{width: 300px;height: 100px;font-size: 20px;position: absolute;top: 350px;right: 200px;}
+#bt4{width: 300px;height: 100px;font-size: 20px;position: absolute;top: 500px;right: 200px;}
