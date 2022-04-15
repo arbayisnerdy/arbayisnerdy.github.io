@@ -1,9 +1,19 @@
 h1{background-color:#114514 ; color: white; padding:30px; text-align:center}
 h3{text-align:center}
-img{align-content: center; margin-left: 34.5em;}
+img {display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 #yourWords{padding:25px;background-color:#114514;color: white}
 #theAnswer{padding:25px;background-color:gold;color: black}
-#bt1{width: 300px;height: 100px;font-size: 20px;position: absolute;top: 17em;left: 10em;}
-#bt2{width: 300px;height: 100px;font-size: 20px;position: absolute;top: 25em;left: 10em;}
-#bt3{width: 300px;height: 100px;font-size: 20px;position: absolute;top: 17em;right: 10em;}
-#bt4{width: 300px;height: 100px;font-size: 20px;position: absolute;top: 25em;right: 10em;}
+#bt1{display: block; position: absolute; width: 300px;height: 100px;font-size: 20px; top: 30px;}
+#bt2{display: block; position: absolute; width: 300px;height: 100px;font-size: 20px; bottom: 30px;}
+#bt3{display: block; position: absolute; width: 300px;height: 100px;font-size: 20px; top: 30px; right: 0;}
+#bt4{display: block; position: absolute; width: 300px;height: 100px;font-size: 20px; bottom: 30px; right: 0;}
+
+div.relative {
+  position: relative;
+  margin: auto;
+  width: 1000px;
+  height: 300px;
+}
