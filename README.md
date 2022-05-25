@@ -1,2 +1,0 @@
-# arbayisnerdy.github.io
- 
