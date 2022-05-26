@@ -1,0 +1,130 @@
+html,body{
+  font-family:sans-serif;
+}
+
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.col{
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 2rem;
+}
+
+.display-6{
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.display-4{
+  font-weight:500;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.label{
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+}
+
+a{
+  text-decoration:none;
+  color: #000000
+}
+
+.viewall{
+  padding-top: 2rem;
+  font-size: 1.5rem;
+}
+
+
+a:hover{
+  color: #ff0000
+}
+
+.copyright{
+  font-size: 1rem;
+  padding-top: 0.5rem;
+}
+
+.artist{
+  text-align: center;
+}
+
+.card-title{
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+
+
+/* connect icons */
+.social a{
+  font-size: 1.5rem;
+  padding: 1.5rem;
+}
+
+.bi-github{
+  color: #d5d5d5
+}
+.bi-twitter{
+  color: #d5d5d5
+}
+.bi-youtube{
+  color: #d5d5d5
+}
+.bi-facebook{
+  color: #d5d5d5
+}
+.bi-instagram{
+  color: #d5d5d5
+}
+.bi-spotify{
+  color: #d5d5d5
+}
+
+.bi-github:hover{
+  color: #a83bf4;
+  }
+.bi-twitter:hover{
+  color: #3bc8f4;
+}
+.bi-youtube:hover{
+  color: #ff2b2b;
+}
+.bi-facebook:hover{
+  color: #3a5ba4;
+}
+.bi-instagram:hover{
+  color: #d83072;
+}
+.bi-spotify:hover{
+  color: #1ed860;
+}
+/* connect icons */
+
+
+
+
+/* footer */
+footer{
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.light{
+  border-top: 2px solid #d5d5d5;
+}
+
+.footerp{
+  padding-top: 2rem;
+}
+/* footer */
