@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<!--睡眠学校页面-->
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+        content="Creative Agency Responsive HTML5 Template. Built with Bootstrap, HTML5, CSS3 and jQuery.">
+    <meta name="keywords"
+        content="HTML, CSS, JavaScript, jQuery, Animation, Bootstrap, Font Awesome, Revolution Slider, Agengy, Portfolio">
+    <meta name="author" content="Orientate">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleep Circle - 睡眠学校</title><!-- BEGIN:CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.css">
+    <link rel="stylesheet" href="assets/css/orbito-icons.css">
+    <link rel="stylesheet" href="assets/css/orientate-font.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/lightslider.css">
+    <link rel="stylesheet" href="assets/css/lightcase.css">
+    <link rel="stylesheet" href="assets/css/settings.css">
+    <link rel="stylesheet" href="assets/css/ignore_for_wp.css">
+    <link rel="stylesheet" href="assets/css/preset.css">
+    <link rel="stylesheet" href="assets/css/theme.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- END:CSS -->
+    <!-- BEGIN:本页特殊css设置 -->
+    <style>
+        /* 睡眠困扰场景图标居中 */
+        .processIcon{width:96px;height:96px;background:#FFF;border-radius:50%;font-size:36px;line-height:1;color:#00c0ff;position:relative;text-align:center;margin:0 auto 35px;padding:16px 0}
+        /* 睡眠优化方案app图标靠右 */
+        .imgright{
+            position: absolute;
+            right: 0px;
+            }
+        /* 睡眠学校主页面hover设置 */ 
+        .siDetails{background:#FFF;border-radius:5px;width:calc(100% - 60px);position:absolute;left:30px;bottom:0;box-shadow:0 5px 90px 0 rgba(2,24,93,0.08);padding:24px 100px 28px 31px;transition:all ease 350ms;-moz-transition:all ease 350ms;-webkit-transition:all ease 350ms}
+        .serviceItem01:hover .siDetails{padding-bottom:175px}.siDetails h3{font-size:24px;line-height:33px;margin:0}.siDetails h3 a{color:inherit}.siDetails h3 a:hover{color:#f9758f}.siDetails>i{font-size:60px;color:#00c0ff;line-height:.8;position:absolute;right:0;top:26px;margin:0;width:86px;} .siDetails .readMoreLink{position:absolute;left:30px;bottom:27px;opacity:0;-webkit-transform:translateY(50px);-moz-transform:translateY(50px);transform:translateY(50px);-webkit-transition:-webkit-transform .7s cubic-bezier(.77,0,.175,1),opacity .4s cubic-bezier(.165,.84,.44,1);transition:transform .7s cubic-bezier(.77,0,.175,1),opacity .4s cubic-bezier(.165,.84,.44,1);width:calc(100% - 60px);}
+        .serviceItem01:hover .siDetails .readMoreLink{opacity:1;-webkit-transform:translateY(0);-moz-transform:translateY(0);transform:translateY(0);-webkit-transition:.6s cubic-bezier(.165,.84,.44,1) .2s;-moz-transition:.6s cubic-bezier(.165,.84,.44,1) .2s;transition:.6s cubic-bezier(.165,.84,.44,1) .2s}
+
+        .readMoreLink{font-family:'Jost',sans-serif;font-size:18px;color:#343c55;font-weight:500;display:inline-block;line-height:1}.readMoreLink i{font-size:12px;color:#f9758f;margin-left:11px;position:relative;top:0;transition:margin ease 350ms;-moz-transition:margin ease 350ms;-webkit-transition:margin ease 350ms}.readMoreLink:hover{color:#f9758f}.readMoreLink:hover i{margin-left:6px}
+        .readMoreLinkBlank{display:none;}
+        /* 下一个设置 */
+    </style>
+    <!-- END:本页特殊css设置 -->
+    <!-- BEGIN:Favicon Icon -->
+    <!-- END:Favicon Icon -->
+</head>
+
+<body>
+    <!-- BEGIN:Preloader -->
+    <div id="preloader">
+        <div class="la-ball-scale-multiple la-2x">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div><!-- END:Preloader -->
+    <!-- BEGIN:Header -->
+        <header class="header02 isSticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="headerInner02">
+                        <div class="logo2"><a href="index.html"><img src="assets/picture/logo_white.png" alt="Orbito"></a></div>
+                        <a  href="javascript:void(0)" class="menu_btn02"><i class="twi-bars2"></i><span>导航</span></a>
+                        <nav class="mainMenu2">
+                            <ul>
+                                <li><a href="index.html">主页</a></li>
+                                <li><a href="about.html">关于我们</a></li>
+                                <li><a href="javascript:void(0);">睡眠学校</a></li>
+                                <li><a href="portfolio.html">睡眠商城</a></li>
+                                <li><a href="blog_grid_lsb.html">睡眠社区</a></li>
+                            </ul>
+                        </nav>
+                        <a class="orbBtn01 orbBtnBorder" href="contact.html">
+                            <span class="bp-shape"></span>
+                            <span class="bp-shape"></span>
+                            <span class="bp-shape"></span>
+                            <span class="bp-shape"></span>
+                            <span class="bp-text">加入我们</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END:Header -->
+    <!-- BEGIN:Page Banner Section -->
+    <section class="pageBanner pbBG2" id="scene_1">
+        <div class="pageBannerOverlay"></div>
+        <div class="triangleShapes layer_items" data-depth="0.9"><img src="assets/picture/21.png"
+                alt="Orbito Banner Shapes"></div>
+        <div class="pageBannerContainer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="pageBannerContent">
+                            <div class="pageBannerContentInner">
+                                <h2>睡眠学校</h2>
+                                <div class="orbitoBredcrumbs"><a href="index.html">主页</a><i>></i><span>睡眠学校</span>
+                                </div>
+                            </div>
+                            <div class="pageBannerShape01"><img src="assets/picture/18.png" alt="Orbito Banner Shapes">
+                            </div>
+                            <div class="pageBannerShape02"><img src="assets/picture/19.png" alt="Orbito Banner Shapes">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pageBannerShape03"><img src="assets/picture/20.png" alt="Orbito Banner Shapes"></div>
+    </section><!-- END:Page Banner Section -->
+    <!-- BEGIN:睡眠学校内容 Section -->
+    <section class="portfolioPageSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="filterUL">
+                        <li class="filter active" data-filter="all">全部</li>
+                        <li class="filter" data-filter="problem1">睡眠习惯</li>
+                        <li class="filter" data-filter="problem2">入睡困难</li>
+                        <li class="filter" data-filter="problem3">睡眠障碍</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row" id="mixGrid">
+                <div class="col-xl-4 col-md-6 mix problem1">
+                    <div class="serviceItem01">
+                        <div class="siThumb"><img src="assets/picture/学校2.jpg" alt="收获优质睡眠的10个习惯"></div>
+                        <div class="siDetails">
+                            <h3><a href="service_details.html">收获优质睡眠的10个习惯</h3>
+                            <span class="readMoreLinkBlank"><br><br><br></span>
+                            </a><i
+                                class="orbito-anchor-point"></i><a href="service_details.html" class="readMoreLink" style="line-height:1.2;">
+                                    通过10种健康的睡眠习惯，更好地帮助您控制您的昼夜节律、睡眠压力和激活水平获得更好的睡眠，收获良好的睡眠。
+                                    <span style="line-height:1.5;"><br>查看详情<i class="fa fa-angle-right"></i></span>
+                                    </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 mix problem2">
+                    <div class="serviceItem01">
+                        <div class="siThumb"><img src="assets/picture/学校7.jpg" alt="Orbito Service"></div>
+                        <div class="siDetails">
+                            <h3><a href="service_details.html">真正切实有效的睡眠技巧 </h3>
+                            <span class="readMoreLinkBlank"><br><br><br></span></a><i class="orbito-bar"></i><a href="service_details.html" class="readMoreLink" style="line-height:1.2;">
+                                    对于大多数人来说，合适的睡眠条件即可保证睡眠质量。但是，当我们遇到困难时该怎么办？现在向您展示4个对许多人都有效的睡眠技巧。
+                                    <span style="line-height:1.5;"><br>查看详情<i class="fa fa-angle-right"></i></span>
+                                    </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 mix problem1">
+                    <div class="serviceItem01">
+                        <div class="siThumb"><img src="assets/picture/学校1.jpg" alt="Orbito Service"></div>
+                        <div class="siDetails">
+                            <h3><a href="service_details.html">有助于控制体重的7种睡眠方法 </h3>
+                            <span class="readMoreLinkBlank"><br><br><br></span>
+                            </a><i class="orbito-document"></i><a href="service_details.html" class="readMoreLink" style="line-height:1.2;">日常生活中最常控制体重的方法就是运动和限制卡路里。但注意睡眠同样会起到关键性因素帮助控制体重。 7 种方式帮助您通过睡眠达到体重目标。<span style="line-height:1.5;"><br>查看详情<i class="fa fa-angle-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 mix problem2">
+                    <div class="serviceItem01">
+                        <div class="siThumb"><img src="assets/picture/学校4.jpg" alt="Orbito Service"></div>
+                        <div class="siDetails">
+                            <h3><a href="service_details.html">锻炼和睡眠：锻炼如何促进睡眠 </h3>
+                            <span class="readMoreLinkBlank"><br><br><br></span></a><i class="orbito-shield"></i><a href="service_details.html" class="readMoreLink" style="line-height:1.2;">如果您整夜辗转反侧未能入睡，您可能需要在白天尝试不同类型的运动。让我们探索锻炼如何帮助我们改善睡眠，并通过睡眠进行更有活力的锻炼。<span style="line-height:1.5;"><br>查看详情<i class="fa fa-angle-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 mix problem3">
+                    <div class="serviceItem01">
+                        <div class="siThumb"><img src="assets/picture/学校5.jpg" alt="Orbito Service"></div>
+                        <div class="siDetails">
+                            <h3><a href="service_details.html">12件关于梦话及其他异态睡眠的小事 </h3>
+                            <span class="readMoreLinkBlank"><br><br><br></span></a><i class="orbito-web"></i><a href="service_details.html" class="readMoreLink" style="line-height:1.2;">梦话是异态睡眠（或称异常睡眠行为）的一种形式。包括梦游、夜惊和 REM 睡眠行为障碍 (RBD)等病症。<span style="line-height:1.5;"><br>查看详情<i class="fa fa-angle-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 mix problem3">
+                    <div class="serviceItem01">
+                        <div class="siThumb"><img src="assets/picture/学校6.jpg" alt="Orbito Service"></div>
+                        <div class="siDetails">
+                            <h3><a href="service_details.html">夜间惊吓：如何阻止和应对夜惊</h3>
+                            <span class="readMoreLinkBlank"><br><br><br></span></a><i class="orbito-smartphone"></i><a href="service_details.html" class="readMoreLink" style="line-height:1.2;">对于患有夜惊症或与之的人生活过的人来说，半夜被尖叫声惊醒可能是经常发生的事情。那么导致夜惊的原因是什么？ 他们可以治疗吗？<span style="line-height:1.5;"><br>查看详情<i class="fa fa-angle-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="orbitoPagination"><a href="javascript:void(0);" class="opPrev"><i
+                                class="fa-solid fa-angle-left"></i></a><span class="current">1</span><a
+                            href="javascript:void(0);">2</a><a href="javascript:void(0);">3</a><a href="javascript:void(0);"
+                            class="opNext"><i class="fa-solid fa-angle-right"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END：睡眠学校内容 Section -->
+    <!-- BEGIN:Work Process Section -->
+    <!-- <section class="workProcessSection" style="background-color:#9681bf"> -->
+    <section class="workProcessSection">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <h3 class="secSubTitle text-uppercase">如何应用</h3>
+                    <h2 class="secTitle stWhite">睡眠困扰场景</h2>
+                    <p class="secDesc">带您深度了解睡眠知识，灵活运用至日常生活中的睡眠困扰场景里，解决您的实际问题。</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-md-6">
+                    <div class="iconBox07 text-center">
+                        <div class="processIcon"><img src="assets/image/icons8-bed-64.png"></div>
+                        <h3>外出认床</h3>
+                        <p style="color:#CDCFD6">每到一个新环境，总是辗转反侧、难以入眠，就算是躺在舒适度MAX的五星级酒店大床上，还是忍不住地怀念自己家中的小床</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                    <div class="iconBox07 text-center">
+                        <div class="processIcon"><img src="assets/image/icons8-sad-ghost-64.png"/></div>
+                        <h3>失眠焦虑</h3>
+                        <p style="color:#CDCFD6">由于精神紧张、工作压力大、环境变化等因素导致失眠、入睡困难，多梦易醒，甚至伴随头痛、困倦乏力、多汗、心悸、梦中惊醒后出现恐惧感等现象</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                    <div class="iconBox07 text-center">
+                        <div class="processIcon"><img src="assets/image/icons8-airport-64.png"/></div>
+                        <h3>旅行时差</h3>
+                        <p style="color:#CDCFD6">即使是经验最丰富的旅行者也会受到时差的影响，身体很难适应新的睡眠节律。在想入睡时难以入睡，但在白天又感到疲倦、难以集中和呆滞</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                    <div class="iconBox07 text-center">
+                        <div class="processIcon"><img src="assets/image/icons8-expired-64.png"/></div>
+                        <h3>作息混乱</h3>
+                        <p style="color:#CDCFD6">睡眠时间不规律，睡眠周期紊乱，睡眠时长不定，有时甚至通宵未眠。一旦正常的睡眠模式持续遭到破坏，便难以调整，且将对人体器官和生理组织造成永久性的损伤，诱发多种疾病</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- END:Work Process Section -->
+    <!-- BEGIN:Pricing Section -->
+    <section class="pricingSection">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <h3 class="secSubTitle text-uppercase">立即获取</h3>
+                    <h2 class="secTitle">睡眠优化方案</h2>
+                    <p class="secDesc">为您个性化推荐睡眠优化方案，您可以结合您的睡眠困扰针对性地运用以下几款功能性APP，立志帮您收获更好的睡眠质量。</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-md-6">
+                    <div class="pricingTable">
+                        <h2 class="ptTitle" style="line-height:200%">小睡眠<span class="imgright"><img src="assets/image/小睡眠.png"></span></h2> 
+                        <p class="ptDesc">一款新概念睡眠辅助APP，提供专业、全面、暖心的睡眠服务，营造安静舒适氛围，加快入睡速度，更希望籍此唤起对睡眠的重要性和睡眠质量的关注，充当您冥想静心、灵感碰撞、看书阅读的小伴侣 </p>
+                        <div class="ptSeperator"></div>
+                        <div class="ptPrice">静心伴侣 <span>入睡·快</span></div>
+                        <ul class="ptFeatures">
+                            <li>融合专业疗愈催眠曲与色彩心理学催眠暗示原理</li>
+                            <li>近百种天然白噪音</li>
+                            <li>专业ASMR</li>
+                            <li>神奇脑波</li>
+                            <li>放松旋律</li>
+                        </ul><a class="orbBtn01 orbBtnBorder" href="javascript:void(0);"><span class="bp-shape"></span><span
+                                class="bp-shape"></span><span class="bp-shape"></span><span
+                                class="bp-shape"></span><span class="bp-text">立即获取</span></a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="pricingTable">
+                        <h2 class="ptTitle" style="line-height:200%">蜗牛睡眠<span class="imgright"><img src="assets/image/蜗牛睡眠.png"></span></h2>
+                        <p class="ptDesc">一款小科技改善睡眠大问题的枕边睡眠神器，利用独家睡眠算法每日记录多项数据，对比评估睡眠年龄及效率，私人定制专业科学的睡眠解决方案，告别失眠亚健康，充当您早睡早起、规范节律的小伴侣 </p>
+                        <div class="ptSeperator"></div>
+                        <div class="ptPrice">节律伴侣 <span>作息·好</span></div>
+                        <ul class="ptFeatures">
+                            <li>独家睡眠算法专利</li>
+                            <li>每日记录及监测入睡时间、睡眠深度及时长</li>
+                            <li>睡眠状况数据可视化</li>
+                            <li>专业监测设备数据对比分析睡眠质量</li>
+                            <li>Al智能定制专属作息方案</li>
+                        </ul><a class="orbBtn01 orbBtnBorder" href="http://www.seblong.com/"><span class="bp-shape"></span><span
+                                class="bp-shape"></span><span class="bp-shape"></span><span
+                                class="bp-shape"></span><span class="bp-text">立即获取</span></a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="pricingTable">
+                        <h2 class="ptTitle" style="line-height:200%">Sleep Cycle<span class="imgright"><img src="assets/image/sleep-cycle.png"></span></h2>
+                        <p class="ptDesc">一款非常好用的关于睡眠的闹钟软件，帮助千万用户提升睡眠质量，智能闹钟让你醒来变得更加容易和舒适，每天清早起床都精神百倍，充当守护您晨间安稳舒适、幸福感的小伴侣 </p>
+                        <div class="ptSeperator"></div>
+                        <div class="ptPrice">晨间伴侣 <span>叫醒·柔</span></div>
+                        <ul class="ptFeatures">
+                            <li>关注识别睡眠阶段和睡眠循环</li>
+                            <li>智能分析推测最浅睡眠阶段</li>
+                            <li>在浅睡眠状态下捕获最佳唤醒时间</li>
+                            <li>收获如同自然睡醒一般的体验</li>
+                            <li>使醒来后感到放松和精神饱满</li>
+                        </ul><a class="orbBtn01 orbBtnBorder" href="https://www.sleepcycle.com/"><span class="bp-shape"></span><span
+                                class="bp-shape"></span><span class="bp-shape"></span><span
+                                class="bp-shape"></span><span class="bp-text">立即获取</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- END:Pricing Section -->
+    <!-- BEGIN:Why Choose Us Section -->
+    <section class="whyChooseUsSection2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="wcuContent">
+                        <h3 class="secSubTitle text-uppercase">为什么选择我们</h3>
+                        <h2 class="secTitle">我们提供守护睡眠健康的全方位渠道</h2>
+                        <p class="secDesc">多场景个性化提升您的睡眠质量</p>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="row mb57">
+                        <div class="col-xl-6 col-md-6">
+                            <div class="iconBox03"><i class="orbito-user2"></i>
+                                <h3>睡眠资讯</h3>
+                                <p>实时推送海量资讯，真实反映以睡眠为主体的学界业界热点。您可以搜索、获取和订阅有关睡眠问题、热议话题、普遍困扰、专家动态、产品资讯等，快速了解世界范围内睡眠议题的最新进展 </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-md-6">
+                            <div class="iconBox03"><i class="orbito-headphones"></i>
+                                <h3>睡眠课程</h3>
+                                <p>旨在推动全球睡眠相关的科技、教育、文化信息的知识共享，提供涵盖睡眠习惯、昼夜节律、入睡方式、失眠、睡眠障碍、异态睡眠等多方面的海量知识内容。并通过人性化交互设计方便用户更加便捷高效地查阅和获取知识 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6 col-md-6">
+                            <div class="iconBox03"><i class="orbito-shield"></i>
+                                <h3>睡眠定制</h3>
+                                <p>从您的需求角度出发，在睡眠专家的指导下，为您私人化定制科学有效、多层次、多节点的睡眠优化方案。提供从昼夜节律到生活习惯，乃至效果评估等全链路的一体化方案 </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-md-6">
+                            <div class="iconBox03"><i class="orbito-tick-1"></i>
+                                <h3>睡眠咨询</h3>
+                                <p>借助覆盖全球共计约 10 万名科研工作者、睡眠专家组成的高级顾问团及每日公益招募的数百位专家学者力量，提供专业睡眠咨询服务，在线一对一解决您的睡眠困扰，助您收获安稳甜梦 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- END:Why Choose Us Section -->
+    <!-- BEGIN:FAQ Section -->
+    <section class="faqSection">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <h3 class="secSubTitle text-uppercase">须知</h3>
+                    <h2 class="secTitle">常见问题</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-4">
+                    <ul class="nav orbFAQTab" id="faqTab" role="tablist">
+                        <li class="nav-item" role="presentation"><button class="active" id="faqTab-1"
+                                data-bs-toggle="tab" data-bs-target="#faq-tab-1" type="button" role="tab"
+                                aria-controls="faq-tab-1" aria-selected="true">关于睡眠知识</button></li>
+                        <li class="nav-item" role="presentation"><button id="faqTab-2" data-bs-toggle="tab"
+                                data-bs-target="#faq-tab-1" type="button" role="tab" aria-controls="faq-tab-2"
+                                aria-selected="false">订阅方式</button></li>
+                        <li class="nav-item" role="presentation"><button id="faqTab-3" data-bs-toggle="tab"
+                                data-bs-target="#faq-tab-1" type="button" role="tab" aria-controls="faq-tab-3"
+                                aria-selected="false">定制睡眠优化方案</button></li>
+                        <li class="nav-item" role="presentation"><button id="faqTab-4" data-bs-toggle="tab"
+                                data-bs-target="#faq-tab-1" type="button" role="tab" aria-controls="faq-tab-4"
+                                aria-selected="false">更多功能支持</button></li>
+                    </ul>
+                </div>
+                <div class="col-xl-7 offset-xl-1 col-lg-8">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="faq-tab-1" role="tabpanel" aria-labelledby="faqTab-1"
+                            tabindex="0">
+                            <div class="orbitoAccordion orbitoAccMode2" id="orbitoAccordion_01">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="orb_acc_hed_1"><button class="accordion-button"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#orb_acc_col_1"
+                                            aria-expanded="true" aria-controls="orb_acc_col_1">我能在这里学到哪些睡眠知识？</button></h2>
+                                    <div id="orb_acc_col_1" class="accordion-collapse collapse show"
+                                        aria-labelledby="orb_acc_hed_1" data-bs-parent="#orbitoAccordion_01">
+                                        <div class="accordion-body">睡眠学校提供涵盖睡眠习惯于健康、昼夜节律、如何入睡、失眠、发作性睡眠疾病、睡眠表现、睡眠呼吸暂停、睡眠剥夺、睡眠障碍、打鼾、睡眠麻痹、睡眠测验、睡眠报告、睡眠科学、睡眠声音和音乐、睡眠故事等方面的海量知识内容。致力于助力用户收获更优质的睡眠体验，养成更良好的生活方式，拥抱幸福。</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="orb_acc_hed_2"><button
+                                            class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#orb_acc_col_2" aria-expanded="false"
+                                            aria-controls="orb_acc_col_2">怎样迅速获取我想要的睡眠知识？
+                                        </button></h2>
+                                    <div id="orb_acc_col_2" class="accordion-collapse collapse"
+                                        aria-labelledby="orb_acc_hed_2" data-bs-parent="#orbitoAccordion_01">
+                                        <div class="accordion-body">您可以点击“睡眠学校”首页推送的资讯获取您想要的睡眠知识和睡眠课程，同时根据感兴趣的文章的分区归属和相关文章、相关课程推荐可以进一步获取更多您想要的睡眠知识</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="orb_acc_hed_3"><button
+                                            class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#orb_acc_col_3" aria-expanded="false"
+                                            aria-controls="orb_acc_col_3">睡眠课程能为我提供哪些帮助？
+                                        </button></h2>
+                                    <div id="orb_acc_col_3" class="accordion-collapse collapse"
+                                        aria-labelledby="orb_acc_hed_3" data-bs-parent="#orbitoAccordion_01">
+                                        <div class="accordion-body">睡眠课程能为您识别您的睡眠状况、改善您的睡眠问题、提升您的睡眠质量，加深您对睡眠的了解程度，帮您树立良好的睡眠观念，陪伴您一同拥有更健康舒适的生活习惯和生活方式。 </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="orb_acc_hed_4"><button
+                                            class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#orb_acc_col_4" aria-expanded="false"
+                                            aria-controls="orb_acc_col_4">睡眠课程都是面向什么群体的？</button>
+                                    </h2>
+                                    <div id="orb_acc_col_4" class="accordion-collapse collapse"
+                                        aria-labelledby="orb_acc_hed_4" data-bs-parent="#orbitoAccordion_01">
+                                        <div class="accordion-body">睡眠课程是面向有着收获更优质的睡眠需求的所有人群的。
+根据不同人群的具体需求，用户可以针对性地获取符合自己的睡眠课程。在对自己的睡眠状况感到疑惑时，还可以点击“睡眠咨询”获取更多帮助。 </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- END:FAQ Section -->
+    <!-- BEGIN:CTA Section -->
+    <section class="ctaSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-md-9">
+                    <div class="ctaLeft">
+                        <h3 class="secSubTitle text-uppercase">我们欢迎每一位朋友的加入</h3>
+                        <h2 class="secTitle stWhite">加入Sleep Circle</h2>
+                        <p class="secDesc">好睡眠，更是好的生活方式</p>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-3">
+                    <div class="ctaRight justify-content-end"><a class="orbBtn01 hoverBlue" href="contact.html"><span
+                                class="bp-shape"></span><span class="bp-shape"></span><span
+                                class="bp-shape"></span><span class="bp-shape"></span><span class="bp-text">加入我们</span></a></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ctaBorder"></div>
+                </div>
+            </div>
+        </div>
+    </section><!-- END:CTA Section -->
+    <!-- BEGIN:Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <aside class="widget about_widget">
+                        <div class="aboutWidgetContent"><a href="index.html"><img src="assets/picture/logo_white.png"
+                                    alt="Orbito"></a>
+                            <p>为美好生活喝彩</p>
+                            <div class="contactInfo"><span><i class="fa-solid fa-location-dot"></i>北京市朝阳区定福庄东街一号中国传媒大学</span>
+                              <span><i class="fa-solid fa-phone"></i>+86 123 4567 8900</span>
+                              <span><i
+                                        class="fa-solid fa-envelope"></i><a
+                                        href="sleepcircle@sleep.com">sleepcircle@sleep.com</a></span></div>
+                        </div>
+                    </aside>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <aside class="widget">
+                        <h3 class="widgetTitle">网页内容</h3>
+                        <ul>
+                            <li><a href="index.html">主页</a></li>
+                            <li><a href="about.html">关于我们</a></li>
+                            <li><a href="service.html">睡眠学校</a></li>
+                            <li><a href="portfolio.html">睡眠商城</a></li>
+                            <li><a href="blog_grid_lsb.html">睡眠社区</a></li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="col-lg-3 col-md-6 pdl124">
+                    <aside class="widget">
+                        <h3 class="widgetTitle">友情链接</h3>
+                        <ul>
+                          <li><a href="http://www.zgsmyjh.org/">中国睡眠研究会</a></li>
+                          <li><a href="https://www.sleemon.cn/web/science_sleep.html">喜临门睡眠研究院</a></li>
+                          <li><a href="https://neybox.com/">Neybox Digital</a></li>
+                          <li><a href="https://www.sleepcycle.com/">Sleep Cycle</a></li>
+                          <li><a href="http://www.seblong.com/">蜗牛睡眠APP</a></li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <aside class="widget">
+                        <h3 class="widgetTitle">收件箱</h3>
+                        <div class="newsletterContent">
+                            <p>向我们任意发送一条观点吧</p>
+                            <form method="post" action="javascript:void(0);"><input type="email" name="email"
+                                    placeholder="敲入内容"><button type="submit"><i
+                                        class="fa-solid fa-envelope"></i></button></form>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footerBorder"></div>
+                </div>
+            </div>
+        </div>
+    </footer><!-- END:Footer Section -->
+    <!-- BEGIN:Copyright Section -->
+    <section class="siteInfoSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="siteInfo">All rights By &nbsp;&nbsp;<a
+                            href="index.html">sleepcircle</a>&nbsp;&nbsp;&COPY;&nbsp;&nbsp;2022 </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="siteInfo">
+                        Site created By<a href="http://www.bootstrapmb.com/"> bootstrapmb</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- END:Copyright Section -->
+    <!-- BEGIN:Back To Top --><a href="javascript:void(0);" id="backtotop"><i class="fa-solid fa-arrow-up"></i></a>
+    <!-- END:Back To Top -->
+    <!-- BEGIN:JS -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/shuffle.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/owl.carousel.filter.js"></script>
+    <script src="assets/js/jquery.appear.js"></script>
+    <script src="assets/js/lightcase.js"></script>
+    <script src="assets/js/lightslider.min.js"></script>
+    <script src="assets/js/circle-progress.js"></script>
+    <script src="assets/js/mixer.js"></script>
+    <script src="assets/js/parallax.js"></script>
+    <script src="assets/js/gmaps.js"></script>
+    <script src="assets/js/js.html"></script>
+    <script src="assets/js/jquery.themepunch.tools.min.js"></script>
+    <script src="assets/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="assets/js/revolution.extension.actions.min.js"></script>
+    <script src="assets/js/revolution.extension.carousel.min.js"></script>
+    <script src="assets/js/revolution.extension.kenburn.min.js"></script>
+    <script src="assets/js/revolution.extension.layeranimation.min.js"></script>
+    <script src="assets/js/revolution.extension.migration.min.js"></script>
+    <script src="assets/js/revolution.extension.migration.min.js"></script>
+    <script src="assets/js/revolution.extension.parallax.min.js"></script>
+    <script src="assets/js/revolution.extension.slideanims.min.js"></script>
+    <script src="assets/js/revolution.extension.video.min.js"></script>
+    <script src="assets/js/theme.js"></script><!-- END:JS -->
+</body>
+
+</html>
